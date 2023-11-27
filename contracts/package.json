@@ -1,0 +1,15 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "compile": "aptos move compile --named-addresses hello_blockchain=default",
+    "deploy": "aptos move publish --profile counter --named-addresses hello_blockchain=0x5ab467111e876a49c2b20d7b4dd891a9a50f8cb4efbbcb55ed5a00e8ee960e89"
+  },
+  "author": "",
+  "license": "ISC"
+}

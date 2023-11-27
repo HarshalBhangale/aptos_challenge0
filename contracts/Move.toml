@@ -1,0 +1,17 @@
+[package]
+name = "contract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+hello_blockchain = "_"
+
+# [dev-addresses]
+# hello_blockchain = "0x7e7591e09ca83120a52dfa1e06f04bac040d67b0c4d94db7ca03d11eb8b456db"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]

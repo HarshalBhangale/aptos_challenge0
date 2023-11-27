@@ -1,0 +1,66 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+  background-color: #f0f2f5;
+  padding: 20px;
+  height: 100vh;
+}
+
+.header {
+  font-size: 24px;
+  color: #1890ff;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.click-button {
+  background-color: #52c41a;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.click-button:hover {
+  background-color: #1890ff;
+}
+
+.global-click-count {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.leaderboard {
+  margin-top: 20px;
+}
+
+.leaderboard ol {
+  list-style: none;
+  padding: 0;
+}
+
+.leaderboard li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard li:nth-child(even) {
+  background-color: #f9f9f9;
+}
