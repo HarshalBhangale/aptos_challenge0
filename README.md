@@ -49,9 +49,9 @@ This repository contains the code for the Aptos Challenge, a decentralized appli
 ```bash
 git clone https://github.com/HarshalBhangale/aptos_challenge0.git
 cd aptos_challenge0
-
+```
 #Features
-Users can connect their wallets.
-The page displays the total number of clicks from all users, fetched from the on-chain contract.
-Users can click a button, prompting them to sign and submit a transaction that increments the on-chain counter.
-A leaderboard showcases the top 10 users with the most clicks.
+### 1 .Users can connect their wallets.
+### 2. The page displays the total number of clicks from all users, fetched from the on-chain contract.
+### 3. Users can click a button, prompting them to sign and submit a transaction that increments the on-chain counter.
+### 4. A leaderboard showcases the top 10 users with the most clicks.
