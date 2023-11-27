@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Aptos Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This repository contains the code for the Aptos Challenge, a decentralized application (DApp) where users can interact with a smart contract by clicking a button. The user's actions are recorded on the blockchain, and a leaderboard showcases the top 10 users with the most clicks.
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+[Watch the demo video](https://www.youtube.com/watch?v=zepmZ0Qeet4)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Live App
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[Explore the live app](https://aptos-challenge.web.app/)
 
-### `npm test`
+## Figma Designs
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[View Figma designs](https://www.figma.com/file/yDK7Lv7iyp9btEOSOHYLxP/Untitled?type=design&node-id=0%3A1&mode=design&t=Cx0C8jsLRMPhlJ1F-1)
 
-### `npm run build`
+## Table of Contents
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Getting Started](#getting-started)
+  - [Environment Setup](#environment-setup)
+  - [Smart Contract](#smart-contract)
+  - [Frontend](#frontend)
+  - [Local Development](#local-development)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Environment Setup
 
-### `npm run eject`
+1. Install the Aptos CLI by following the [installation instructions](https://aptos.dev/tools/aptos-cli/install-cli/).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Smart Contract
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Follow the [Smart Contract tutorial](https://aptos.dev/tutorials/build-e2e-dapp/create-a-smart-contract) to set up your smart contract.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Frontend
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Set up the React app by following the [React Tutorial](https://aptos.dev/tutorials/build-e2e-dapp/set-up-react-app).
+2. Utilize the [Typescript SDK](https://aptos.dev/sdks/ts-sdk/index) for integration.
 
-## Learn More
+### Local Development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone this repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/HarshalBhangale/aptos_challenge0.git
+cd aptos_challenge0
+
+#Features
+Users can connect their wallets.
+The page displays the total number of clicks from all users, fetched from the on-chain contract.
+Users can click a button, prompting them to sign and submit a transaction that increments the on-chain counter.
+A leaderboard showcases the top 10 users with the most clicks.
